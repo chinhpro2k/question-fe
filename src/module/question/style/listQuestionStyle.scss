@@ -1,3 +1,70 @@
 #list-question{
-
+  .header-list{
+    .search{
+     input{
+       width: 500px;
+       border: 1px solid #ECECEC;
+       border-radius: 8px;
+       padding: 4px 8px;
+       &:focus{
+         outline: none;
+       }
+     }
+    }
+  }
+.table-list{
+  margin-top: 30px;
+  th{
+    border: 1px solid #000000;
+  }
+  tr:first-of-type{
+    cursor: initial;
+    &:hover{
+      background-color: #ffffff;
+    }
+  }
+  tr{
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+    &:hover{
+      background-color: #ECECEC;
+    }
+    td:first-of-type{
+      width: 100px;
+      border-left: 1px solid #000000;
+    }
+    td{
+      width: 200px;
+      border-right: 1px solid #000000;
+      padding: 6px 8px;
+      color: #000000;
+      font-size: 18px;
+      p{
+        margin-bottom: 0;
+      }
+      button{
+        background-color: #ffffff;
+        padding: 4px 6px;
+        border-radius: 4px;
+        margin-right: 12px;
+      }
+      .edit{
+        border: 1px solid green;
+        color: green;
+        &:hover{
+          color: #ffffff;
+          background-color: green;
+        }
+      }
+      .delete{
+        border: 1px solid red;
+        color: red;
+        &:hover{
+          background-color: red;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
 }

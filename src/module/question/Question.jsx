@@ -8,7 +8,7 @@ function Question(props) {
         <div id="question" className="d-flex">
             <div className="banner-left">
                 <div>
-                    <div className="header">
+                    <div className="header text-center">
                         <h1>WPR</h1>
                         <div className="title-header">
                             <h2>HTML QuiZ</h2>
