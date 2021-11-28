@@ -1,0 +1,15 @@
+#question{
+width: 1000px;
+  border: 1px solid #ECECEC;
+  box-shadow: 0 0 4px 4px #ECECEC;
+  margin: 50px auto;
+  .banner-left{
+    width: 20%;
+    flex-shrink: 0;
+    border-right: 1px solid #ECECEC;
+  }
+  .banner-right{
+    width: 80%;
+    padding: 30px 20px;
+  }
+}
